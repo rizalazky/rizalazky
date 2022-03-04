@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/svnvbkdl/rizalazky/
+    - export DEPLOYPATH=/home/svnvbkdl/rizalazky.engineer/
     - /bin/cp -r * $DEPLOYPATH
