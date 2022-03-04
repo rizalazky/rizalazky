@@ -262,5 +262,5 @@
 })();
 var sekarang = new Date();
 var tanggalLahir = Date('8-13-1996');
-var selisih = (Date.parse(sekarang.toGMTString())-Date.parse(tanggalLahir.toGMTString()))/(1000*60*60*24);
+// var selisih = (Date.parse(sekarang.toGMTString())-Date.parse(tanggalLahir.toGMTString()))/(1000*60*60*24);
 
