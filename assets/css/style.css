@@ -399,6 +399,11 @@ span .typing {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+.about-desc{
+  font-size: larger;
+}
+
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -488,15 +493,16 @@ span .typing {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 30px;
   display: block;
   background: none;
   border-radius: 0;
 }
 
 .skills .progress .skill {
-  padding: 10px 0;
+  padding: 8px 0;
   margin: 0;
+  font-size: larger;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
@@ -931,7 +937,7 @@ span .typing {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
   position: fixed;
   left: 0;
   right: 0;
@@ -991,7 +997,7 @@ span .typing {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.3);
+  /* background-color: rgba(255, 255, 255, 0.3); */
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {

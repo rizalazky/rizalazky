@@ -1,0 +1,52 @@
+{
+    "about":"",
+    "skills":[
+        "HTML",
+        "CSS",
+        "JAVASCRIPT",
+        "PHP",
+        "CODEIGNITER",
+        "LARAVEL",
+        "REACT JS",
+        "REACT NATIVE",
+        "MYSQL",
+        "ARDUINO"
+    ],
+    "portfolio":[{
+        "title" : "My Doctor",
+        "type"  : "mobile",
+        "desc"  : "",
+        "link"  : "https://github.com/rizalazky/react-native-mydoctor",
+        "tech"  : ["React Native","Firebase"]
+    },{
+        "title" : "LOAN ORIGINATION SYSTEM",
+        "type"  : "web",
+        "desc"  : "",
+        "link"  : "#",
+        "tech"  : ["Asp.Net","SQL Server"]
+    },{
+        "title" : "APEMASI",
+        "type"  : "web",
+        "desc"  : "",
+        "link"  : "https://www.pemalicomal.com/",
+        "tech"  : ["HTML","CSS","PHP","MYSQL"]
+    },{
+        "title" : "RICEMIL",
+        "type"  : "web",
+        "desc"  : "",
+        "link"  : "http://tripujiindri.website/",
+        "tech"  : ["HTML","CSS","PHP","MYSQL"]
+    },{
+        "title" : "GEOATTENDANCE",
+        "type"  : "web",
+        "desc"  : "",
+        "link"  : "https://abs.naftech.web.id/absen/",
+        "tech"  : ["HTML","CSS","PHP","MYSQL"]
+    },{
+        "title" : "WFP",
+        "type"  : "web",
+        "desc"  : "",
+        "link"  : "http://stg1.wfp-admin.bagidata.com/",
+        "tech"  : ["React Js"]
+    }]
+}

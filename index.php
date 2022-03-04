@@ -1,3 +1,7 @@
+<?php
+  $json=file_get_contents("data.json");
+  $data=json_decode($json);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,6 +41,7 @@
 </head>
 
 <body>
+  
 
   <!-- ======= Header ======= -->
   <header id="header">
@@ -76,44 +81,154 @@
     <!-- ======= About Me ======= -->
     <div class="about-me container">
 
-      <div class="section-title">
-        <h2>About</h2>
-        <!-- <p>Learn more about me</p> -->
-      </div>
-
+      
       <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
+        <div class="col-lg-5" data-aos="fade-right">
           <img src="assets/img/bg1.JPG" class="img-fluid" alt="">
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <!-- <h3>Web Developer </h3>
-          <p class="fst-italic">
-            the following is my personal data :
-            <br><br>
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span id="birthday">13 Aug 1996</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>maulalardiatqo123@gmail.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62 89619166878</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Balapulang, Kab. Tegal</span></li>
-              </ul>
+        <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="container">
+            <div class="section-title">
+              <h2>About</h2>
+              <!-- <p>Learn more about me</p> -->
             </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="result">24</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>bachelor of education</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-              </ul>
+  
+            <!-- <h3>Web Developer </h3>
+            <p class="fst-italic">
+              the following is my personal data :
+              <br><br>
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span id="birthday">13 Aug 1996</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>maulalardiatqo123@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62 89619166878</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Balapulang, Kab. Tegal</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="result">24</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>bachelor of education</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div><br><br> -->
+            <p class="about-desc">
+              Hi, I am Rizal Azky.
+              <br>
+              Software Developer from Tegal,Indonesia.
+              I have 2+ years of experience.
+              I enjoy build anything from mobile to web app.     
+              <!-- Developing,testing,debugging application. -->
+            </p>
+          </div>
+          <br>
+
+          <div class="skills container">
+
+            <div class="section-title">
+              <h2>Skills</h2>
             </div>
-          </div><br><br> -->
-          <p style="font-size: large;">
-            Hi, i'am Rizal Azky, i'am a Software Engineer, currently living in Tegal,Indonesia.
-            <br><br>
-            I have 2+ years of experience as Professional Software Engineer.Developing,testing,debugging application.
-          </p>
+
+            <div class="row skills-content">
+
+              <div class="col-lg-6">
+
+                <div class="progress">
+                  <span class="skill">HTML</span>
+                  <!-- <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div> 
+                  </div> -->
+                </div>
+
+                <div class="progress">
+                  <span class="skill">CSS <i class="val"></i></span>
+                  <!-- <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div> -->
+                </div>
+
+                <div class="progress">
+                  <span class="skill">JavaScript <i class="val"></i></span>
+                  <!-- <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div> -->
+                </div>
+
+                <div class="progress">
+                  <span class="skill">PHP <i class="val"></i></span>
+                  <!-- <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div> -->
+                </div>
+                <div class="progress">
+                  <span class="skill">codeigniter <i class="val"></i></span>
+                  <!-- <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div> -->
+                </div>
+              
+              </div>
+
+              <div class="col-lg-6">
+
+                <div class="progress">
+                  <span class="skill">React Js <i class="val"></i></span>
+                  <!-- <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div> -->
+                </div>
+                <div class="progress">
+                  <span class="skill">React Native <i class="val"></i></span>
+                  <!-- <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div> -->
+                </div>
+                <div class="progress">
+                  <span class="skill">Arduino<i class="val"></i></span>
+                  <!-- <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div> -->
+                </div>
+                <div class="progress">
+                  <span class="skill">Mysql<i class="val"></i></span>
+                  <!-- <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div> -->
+                </div>
+
+
+                <!-- <div class="progress">
+                  <span class="skill">CorelDraw <i class="val">90%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">Photoshop <i class="val">65%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill"> Office <i class="val">75%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div> -->
+
+                
+
+              </div>
+
+            </div>
+
+          </div><!-- End Skills -->
             
           <!-- <a href="skripsi.docx" class="download">Download My CV</a> -->
         </div>
@@ -165,103 +280,7 @@
     </div> -->
     <!-- End Counts -->
 
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">HTML</span>
-            <!-- <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div> 
-             </div> -->
-          </div>
-
-          <div class="progress">
-            <span class="skill">CSS <i class="val"></i></span>
-            <!-- <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div> -->
-          </div>
-
-          <div class="progress">
-            <span class="skill">JavaScript <i class="val"></i></span>
-            <!-- <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div> -->
-          </div>
-
-          <div class="progress">
-            <span class="skill">PHP <i class="val"></i></span>
-            <!-- <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div> -->
-          </div>
-         
-        </div>
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">React Js <i class="val"></i></span>
-            <!-- <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div> -->
-          </div>
-          <div class="progress">
-            <span class="skill">React Native <i class="val"></i></span>
-            <!-- <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-            </div> -->
-          </div>
-          <div class="progress">
-            <span class="skill">Arduino<i class="val"></i></span>
-            <!-- <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-            </div> -->
-          </div>
-          <div class="progress">
-            <span class="skill">Mysql<i class="val"></i></span>
-            <!-- <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-            </div> -->
-          </div>
-
-
-          <!-- <div class="progress">
-            <span class="skill">CorelDraw <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Photoshop <i class="val">65%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill"> Office <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div> -->
-
-          
-
-        </div>
-
-      </div>
-
-    </div><!-- End Skills -->
+   
 
     <!-- ======= Interests ======= -->
     <!-- <div class="interests container">
@@ -612,106 +631,31 @@
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-web">Web</li>
-            <li data-filter=".filter-app">Mobile</li>
+            <li data-filter=".filter-mobile">Mobile</li>
             <!-- <li data-filter=".filter-web">Web</li> -->
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <?php foreach($data->portfolio as  $key => $portfolio) : ?>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-<?php echo $portfolio->type ?>">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/black-logo.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>My Doctor</h4>
-              <p>App</p>
+              <h4><?php echo $portfolio->title ?></h4>
+              <p><?php echo $portfolio->type ?> APP</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/black-logo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php?id=<?php echo $key ?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/black-logo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>LOAN ORIGINATION SYSTEM</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/black-logo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        <?php endforeach ?>
 
         
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/black-logo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>APEMASI</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/black-logo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-       
-
-      
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/black-logo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>RICEMIL</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/black-logo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>GEOATTENDANCE</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/black-logo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>WFP</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
 
       </div>
 
