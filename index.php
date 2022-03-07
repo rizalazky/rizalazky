@@ -646,7 +646,7 @@
               <h4><?php echo $portfolio->title ?></h4>
               <p><?php echo $portfolio->type ?> APP</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/black-logo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <!-- <a href="assets/img/portfolio/black-logo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a> -->
                 <a href="portfolio-details.php?id=<?php echo $key ?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
