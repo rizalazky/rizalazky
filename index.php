@@ -48,7 +48,7 @@
     <div class="container">
 
       <!-- <h2>Hello, I'am</h2> -->
-      <h1><a href="index.html">Rizal Azky</a></h1>
+      <h1><a href="index.php">Rizal Azky</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2>I'm a <span class="typing" style="color: #18d26e; font: bold;text-decoration: none;"></span></h2>
