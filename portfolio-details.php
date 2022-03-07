@@ -78,7 +78,7 @@
                 
                 <tr>
                   <td>Project URL</td>
-                  <td><?php echo $portofolio->link ?></td>
+                  <td><a href="<?php echo $portofolio->link ?>" target="_blank" rel="noopener noreferrer"><?php echo $portofolio->link ?></a></td>
                 </tr>
                 <tr>
                   <td valign="top">Technology</td>
