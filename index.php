@@ -490,7 +490,7 @@
 
           <h3 class="resume-title">Education</h3>
           <div class="resume-item">
-            <h4>Diploma III | Computer Engginer</h4>
+            <h4>Diploma III | Computer Engineer</h4>
             <h5>2016 - 2019</h5>
             <p><em>Politeknik Harapan Bersama Tegal</em></p>
             <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
