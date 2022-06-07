@@ -119,7 +119,7 @@
             <p class="about-desc">
               Hi, I am Rizal Azky.
               <br>
-              Software Developer from Tegal,Indonesia.
+              Software Engineer from Tegal,Indonesia.
               I have 2+ years of experience.
               I enjoy build anything from mobile to web app.     
               <!-- Developing,testing,debugging application. -->
@@ -514,7 +514,7 @@
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
             <h4>Full-stack Developer</h4>
-            <h5>2021 - Now</h5>
+            <h5>Feb 2021 - May 2022</h5>
             <p><em>YBC Software Indonesia</em></p>
             <p>
             <ul>
@@ -527,7 +527,7 @@
           </div>
           <div class="resume-item">
             <h4>Web Developer</h4>
-            <h5>2019 - 2021</h5>
+            <h5>Nov 2019 - Dec 2021</h5>
             <p><em>PT. Evolusi Teknologi Semesta (Evoteks)</em></p>
             <p>
             <ul>
