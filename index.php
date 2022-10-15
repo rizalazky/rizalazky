@@ -513,6 +513,18 @@
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
+            <h4>Web Developer</h4>
+            <h5>Jun 2022 - Present</h5>
+            <p><em>AITINDO</em></p>
+            <p>
+            <ul>
+              <li>Fullstack Web Development</li>
+              <!-- <li>Testing and integration API service</li> -->
+              <!-- <li>Developing Program based Web & Mobile Applicatiion</li> -->
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
             <h4>Full-stack Developer</h4>
             <h5>Feb 2021 - May 2022</h5>
             <p><em>YBC Software Indonesia</em></p>
