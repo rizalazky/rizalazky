@@ -492,6 +492,14 @@ span .typing {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+
+.skills-content{
+  display: grid;
+  /* grid-template-columns: auto auto; */
+}
+@media (min-width: 600px) {
+  .skills-content { grid-template-columns: repeat(2, 1fr); }
+}
 .skills .progress {
   height: 30px;
   display: block;

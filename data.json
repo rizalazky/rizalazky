@@ -4,14 +4,41 @@
         "HTML",
         "CSS",
         "JAVASCRIPT",
+        "REACT JS",
+        "REACT NATIVE",
+        "NEXT.JS",
         "PHP",
         "CODEIGNITER",
         "LARAVEL",
-        "REACT JS",
-        "REACT NATIVE",
         "MYSQL",
         "ARDUINO"
     ],
+    "experiences":[{
+        "company" : "AITINDO",
+        "jobTitle" : "Fullstack Developer",
+        "date": "Jun 2022 - Present",
+        "jobDesks" : [
+            "Testing and integration API service",
+            "Developing Program based Web & Mobile Applicatiion"
+        ]
+    },{
+        "company" : "YBC Software Indonesia",
+        "jobTitle" : "Fullstack Developer",
+        "date": "Feb 2021 - May 2022",
+        "jobDesks" : [
+            "Development software based on ERP system with NetSuite",
+            "Fullstack Web Development"
+        ]
+    },{
+        "company" : "PT. Evolusi Teknologi Semesta (Evoteks)",
+        "jobTitle" : "Fullstack Web Developer",
+        "date": "Nov 2019 - Dec 2021",
+        "jobDesks" : [
+            "Fullstack Web Development",
+            "Testing and integration API service",
+            "Create reports template"
+        ]
+    }],
     "portfolio":[{
         "title" : "My Doctor",
         "type"  : "mobile",
@@ -34,7 +61,7 @@
         "title" : "RICEMIL",
         "type"  : "web",
         "desc"  : "",
-        "link"  : "http://tripujiindri.website/",
+        "link"  : "https://github.com/rizalazky/RICEMIL",
         "tech"  : ["HTML","CSS","PHP","MYSQL"]
     },{
         "title" : "GEOATTENDANCE",
@@ -48,5 +75,11 @@
         "desc"  : "",
         "link"  : "http://stg1.wfp-admin.bagidata.com/",
         "tech"  : ["React Js"]
+    },{
+        "title" : "RAPORT APP",
+        "type"  : "web",
+        "desc"  : "",
+        "link"  : "https://github.com/galaxy-co/mtsn-1-tegal-app",
+        "tech"  : ["CODEIGNITER 4","BOOTSTRAP","MYSQL"]
     }]
 }
