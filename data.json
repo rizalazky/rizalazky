@@ -18,15 +18,15 @@
         "jobTitle" : "Fullstack Developer",
         "date": "Jun 2022 - Present",
         "jobDesks" : [
-            "Testing and integration API service",
-            "Developing Program based Web & Mobile Applicatiion"
+            "Develop web and mobile based applications",
+            "Testing and integration API service"
         ]
     },{
         "company" : "YBC Software Indonesia",
         "jobTitle" : "Fullstack Developer",
         "date": "Feb 2021 - May 2022",
         "jobDesks" : [
-            "Development software based on ERP system with NetSuite",
+            "Develop software based on ERP system with NetSuite",
             "Fullstack Web Development"
         ]
     },{
@@ -35,8 +35,7 @@
         "date": "Nov 2019 - Dec 2021",
         "jobDesks" : [
             "Fullstack Web Development",
-            "Testing and integration API service",
-            "Create reports template"
+            "Create Report templates"
         ]
     }],
     "portfolio":[{
