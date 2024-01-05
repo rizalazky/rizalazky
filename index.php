@@ -70,6 +70,7 @@
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="https://www.linkedin.com/in/rizal-azky-129001186/" target="blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/62895338902010" target="blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
       </div>
 
     </div>
