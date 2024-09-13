@@ -51,7 +51,7 @@
         "link"  : "#",
         "tech"  : ["Asp.Net","SQL Server"]
     },{
-        "title" : "APEMASI",
+        "title" : "APEMASI PEMALI COMAL",
         "type"  : "web",
         "desc"  : "",
         "link"  : "https://www.pemalicomal.com/",
@@ -75,10 +75,17 @@
         "link"  : "http://stg1.wfp-admin.bagidata.com/",
         "tech"  : ["React Js"]
     },{
-        "title" : "RAPORT APP",
+        "title" : "E-RAPORT - MTSN 1 TEGAL",
         "type"  : "web",
-        "desc"  : "",
-        "link"  : "https://github.com/galaxy-co/mtsn-1-tegal-app",
+        "desc"  : "E-RAPORT is a digital report card system developed for MTSN 1 Tegal. This platform simplifies the process of generating and distributing report cards by allowing teachers to input students' grades and performance directly into the system. Parents and students can easily access the reports online, ensuring a more efficient and transparent way of tracking academic progress.",
+        "link"  : "https://raport.mtsn1tegal.tech/",
         "tech"  : ["CODEIGNITER 4","BOOTSTRAP","MYSQL"]
-    }]
+    },{
+        "title" : "SMEKAL DIGITAL - SMK AL AMIRIYAH",
+        "type"  : "web",
+        "desc"  : "SMEKAL Digital is a comprehensive school management application system designed for SMK Al Amiriyah. This platform facilitates the management of key school operations such as student and teacher data, class scheduling, and student class assignments.",
+        "link"  : "www.smekal-smart.com",
+        "tech"  : ["HTML","CSS","JAVASCRIPT","CODEIGNITER 3","BOOTSTRAP","MYSQL"]
+    }
+    ]
 }
