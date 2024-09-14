@@ -69,10 +69,10 @@
         "link"  : "https://github.com/rizalazky/RICEMIL",
         "tech"  : ["HTML","CSS","PHP","MYSQL"]
     },{
-        "title" : "GEOATTENDANCE",
+        "title" : "Absensi App",
         "type"  : "web",
-        "desc"  : "",
-        "link"  : "https://abs.naftech.web.id/absen/",
+        "desc"  : "An attendance tracker that streamlines the check-in and check-out process, reduces errors, and improves overall management.",
+        "link"  : "https://absensi.pemalicomal.com/",
         "tech"  : ["HTML","CSS","PHP","MYSQL"]
     },{
         "title" : "WFP",
